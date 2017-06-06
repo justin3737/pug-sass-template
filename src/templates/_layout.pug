@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width")
+    title Document
+    
+    link(href="/styles/style.css" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Abril+Fatface|Exo+2" rel="stylesheet")
+    
+    
+  body
+
+    include _header.pug
+
+    main.site-content
+      block content
+    
+    include _footer.pug
+    
+    include _scripts.pug
+    
+  

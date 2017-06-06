@@ -1,0 +1,27 @@
+{
+  "name": "gulp-jade-sass-boilerplate",
+  "version": "1.0.0",
+  "description": "A Pug and Sass starter project using gulp for task automation.",
+  "main": "gulpfile.js",
+  "author": "Justin Wu<juns3700@gmail.com>",
+  "scripts": {
+    "start": "gulp",
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.1",
+    "gulp-data": "^1.2.0",
+    "gulp-pug": "^3.0.3",
+    "gulp-sass": "^2.0.4"
+  },
+  "keywords": [
+    "jade",
+    "gulp",
+    "pug",
+    "sass"
+  ]
+}
